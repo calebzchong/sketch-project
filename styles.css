@@ -1,0 +1,35 @@
+table{
+    width:620px;
+    height:620px;
+}
+table, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+tr{
+    height:0;
+}
+.activated {
+}
+.button {
+    width: 100px;
+    border-radius: 5px;
+    background-color: #69D2E7;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: Verdana, Arial, Sans-Serif;
+    opacity: 0.5;
+    padding-top:10px;
+    padding-bottom:10px;
+    margin-bottom: 20px;
+}
+a:link{
+     text-decoration:none;
+}
+#button:hover{
+    background-color: #00CCFF;
+}
+
+.buttondiv{
+   display:inline-block;
+   }
